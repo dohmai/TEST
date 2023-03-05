@@ -1774,7 +1774,7 @@ do
             }
             --
             local watermark_title = utility:Create("TextLabel", {Vector2.new(2 + 6,4), watermark_outline}, {
-                Text = "",
+                Text = "Watermark Holder",
                 Size = theme.textsize,
                 Font = theme.font,
                 Color = theme.textcolor,
