@@ -1554,7 +1554,7 @@ do
         end
         --
         function window:StatusList(info)
-            window.statuslist = {visible = false, statuses = {}}
+            window.statuslist = {visible = true, statuses = {}}
             --
             local info = info or {}
             --
